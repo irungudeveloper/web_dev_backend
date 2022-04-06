@@ -15,19 +15,19 @@
 <img src="https://drive.google.com/file/d/1u9miooYtRsF4aRy-KsVZFOnmoJwq1HMp/view?usp=sharing" alt="codepen_survey_form_image">
 
 - The user can create a new record as shown in the request below
-<img src=" {{ asset('images/post_request') }} " alt="post_request_view" >
+<img src=" https://github.com/irungudeveloper/web_dev_backend/blob/master/public/images/post_request.png?raw=true " alt="post_request_view" >
 
 - The user can get all the records 
-<img src=" {{ asset('images/get_request') }} " alt="get_request_view" >
+<img src=" https://github.com/irungudeveloper/web_dev_backend/blob/master/public/images/get_request.png?raw=true " alt="get_request_view" >
 
 - The user can fetch a single record
-<img src=" {{ asset('images/get_single_request') }} " alt="get_single_view" >
+<img src=" https://github.com/irungudeveloper/web_dev_backend/blob/master/public/images/get_single_request.png?raw=true " alt="get_single_view" >
 
 - The user can update a single record
-<img src=" {{ asset('images/update_request') }} " alt="update_request_view" >
+<img src=" https://github.com/irungudeveloper/web_dev_backend/blob/master/public/images/update_request.png?raw=true " alt="update_request_view" >
 
 - The user can delete a record
-<img src=" {{ asset('images/delete_request') }} " alt="delete_request_view" >
+<img src=" https://github.com/irungudeveloper/web_dev_backend/blob/master/public/images/delete_request.png?raw=true " alt="delete_request_view" >
 
 
 
