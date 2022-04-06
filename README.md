@@ -1,4 +1,37 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+
+
+<p align="center">## SURVEY FORM API </p>
+
+## 1.) Installing and Running the API
+
+- Clone the project onto your local computer
+- On the command line terminal, navigate to the project folder
+- Run the command "composer install" for initial set-up
+- Run the command "php artisan serve" to run the API
+
+## 2.) User Stories
+
+- The survey form is used to collect professional salaries anonymously as shown below
+<img src="https://drive.google.com/file/d/1u9miooYtRsF4aRy-KsVZFOnmoJwq1HMp/view?usp=sharing" alt="codepen_survey_form_image">
+
+- The user can create a new record as shown in the request below
+<img src=" {{ asset('images/post_request') }} " alt="post_request_view" >
+
+- The user can get all the records 
+<img src=" {{ asset('images/get_request') }} " alt="get_request_view" >
+
+- The user can fetch a single record
+<img src=" {{ asset('images/get_single_request') }} " alt="get_single_view" >
+
+- The user can update a single record
+<img src=" {{ asset('images/update_request') }} " alt="update_request_view" >
+
+- The user can delete a record
+<img src=" {{ asset('images/delete_request') }} " alt="delete_request_view" >
+
+
+
+<!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -62,3 +95,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+ -->
