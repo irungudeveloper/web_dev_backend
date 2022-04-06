@@ -1,6 +1,6 @@
 
 
-<p align="center">## SURVEY FORM API </p>
+##<p align="center">SURVEY FORM API </p>
 
 ## 1.) Installing and Running the API
 
@@ -12,21 +12,26 @@
 ## 2.) User Stories
 
 - The survey form is used to collect professional salaries anonymously as shown below
-<img src="https://drive.google.com/file/d/1u9miooYtRsF4aRy-KsVZFOnmoJwq1HMp/view?usp=sharing" alt="codepen_survey_form_image">
+<img src="">
 
 - The user can create a new record as shown in the request below
+(localhost:8000/api/survey) [POST REQUEST]
 <img src=" https://github.com/irungudeveloper/web_dev_backend/blob/master/public/images/post_request.png?raw=true " alt="post_request_view" >
 
 - The user can get all the records 
+(localhost:8000/api/survey) [GET REQUEST]
 <img src=" https://github.com/irungudeveloper/web_dev_backend/blob/master/public/images/get_request.png?raw=true " alt="get_request_view" >
 
 - The user can fetch a single record
+(localhost:8000/api/survey/{id} ) [GET REQUEST]
 <img src=" https://github.com/irungudeveloper/web_dev_backend/blob/master/public/images/get_single_request.png?raw=true " alt="get_single_view" >
 
 - The user can update a single record
+(localhost:8000/api/survey/{id}) [POST REQUEST] but place 'method = PUT' in the form body, Laravel has an issue with PUT/PATCH requests while testing on POSTMAN
 <img src=" https://github.com/irungudeveloper/web_dev_backend/blob/master/public/images/update_request.png?raw=true " alt="update_request_view" >
 
 - The user can delete a record
+(localhost:8000/api/survey/{id}) [DELETE REQUEST]
 <img src=" https://github.com/irungudeveloper/web_dev_backend/blob/master/public/images/delete_request.png?raw=true " alt="delete_request_view" >
 
 
