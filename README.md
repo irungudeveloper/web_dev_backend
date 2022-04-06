@@ -12,26 +12,28 @@
 ## 2.) User Stories
 
 - The survey form is used to collect professional salaries anonymously as shown below
+<img width="914" alt="survey_form_src" src="https://user-images.githubusercontent.com/36546375/161957624-cb2c786a-ff58-42c1-a3f7-9359960b8383.png">
+
 
 - The user can create a new record as shown in the request below
 <p>(localhost:8000/api/survey) [POST REQUEST]</p>
-<img src=" https://github.com/irungudeveloper/web_dev_backend/blob/master/public/images/post_request.png?raw=true " alt="post_request_view" >
+<img width="632" alt="post_request" src="https://user-images.githubusercontent.com/36546375/161957563-29e91934-6f90-4b23-bc8b-bee59f6861be.png">
 
 - The user can get all the records 
 <p>(localhost:8000/api/survey) [GET REQUEST]</p>
-<img src=" https://github.com/irungudeveloper/web_dev_backend/blob/master/public/images/get_request.png?raw=true " alt="get_request_view" >
+<img width="623" alt="get_request" src="https://user-images.githubusercontent.com/36546375/161957420-4b7ad37d-26f0-462f-9faf-8f8c5cd997c1.png">
 
 - The user can fetch a single record
 <p>(localhost:8000/api/survey/{id} ) [GET REQUEST]</p>
-<img src=" https://github.com/irungudeveloper/web_dev_backend/blob/master/public/images/get_single_request.png?raw=true " alt="get_single_view" >
+<img width="623" alt="get_single_request" src="https://user-images.githubusercontent.com/36546375/161957502-cffa322d-a7c8-4e77-b383-10cd9c2666fd.png">
 
 - The user can update a single record
 <p>(localhost:8000/api/survey/{id}) [POST REQUEST] but place 'method = PUT' in the form body, Laravel has an issue with PUT/PATCH requests while testing on POSTMAN</p>
-<img src=" https://github.com/irungudeveloper/web_dev_backend/blob/master/public/images/update_request.png?raw=true " alt="update_request_view" >
+<img width="629" alt="update_request" src="https://user-images.githubusercontent.com/36546375/161957742-1fdd3e4f-456b-4bb1-af94-4e3adee03f84.png">
 
 - The user can delete a record
 <p>(localhost:8000/api/survey/{id}) [DELETE REQUEST]</p>
-<img src=" https://github.com/irungudeveloper/web_dev_backend/blob/master/public/images/delete_request.png?raw=true " alt="delete_request_view" >
+<img width="626" alt="delete_request" src="https://user-images.githubusercontent.com/36546375/161957224-ad56771f-87c8-4b5c-8542-a2e8873d4b2e.png">
 
 
 
